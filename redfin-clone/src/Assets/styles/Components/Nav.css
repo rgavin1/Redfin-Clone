@@ -1,0 +1,31 @@
+.nav {
+  padding: 15px;
+}
+.nav,
+.nav__right ul,
+.nav__left {
+  list-style: none !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__left {
+  justify-content: flex-start;
+  gap: 15px;
+  flex: 0.4;
+}
+.nav__logo svg {
+  width: 85px;
+  fill: var(--primary-color);
+}
+.nav__right {
+  flex: 0.4;
+}
+.nav__right ul {
+  gap: 1em;
+}
+.nav__query {
+  font-size: 16px;
+  padding: 5px;
+  min-width: 270px;
+}
