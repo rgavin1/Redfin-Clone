@@ -18,8 +18,8 @@ function App() {
     <div className="app">
         <Nav />
         <h1>{ log }</h1>
-        <button onClick={handleLogin}>Log IN</button>
-        <button onClick={handleLogout}>Log OUT</button>
+        <button onClick={handleLogin}>Log In</button>
+        <button onClick={handleLogout}>Log Out</button>
     </div>
   );
 }
